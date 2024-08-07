@@ -2,7 +2,6 @@ import "./App.css";
 import {
   ScrollControls,
   Scroll,
-  Environment,
   Float,
   Sparkles,
 } from "@react-three/drei";
@@ -40,7 +39,7 @@ function App() {
         intensity={2}
         shadowBias={-0.0001}
       />
-      <Environment preset="warehouse" />
+      
       <EffectComposer>
         <Bloom
           intensity={2}
@@ -131,7 +130,7 @@ function App() {
               <Col md={6}>
                 <div>
                   <h1 style={{ marginBottom: "0px" }}>
-                    La vida puede llegar a ser dificil
+                    La vida puede llegar a ser difícil
                   </h1>
                 </div>
               </Col>
@@ -151,7 +150,7 @@ function App() {
               <Col md={6}>
                 <div>
                   <h1 style={{ marginBottom: "0px" }}>
-                    A veces te podes sentir perdido, perdida.
+                    A veces, te podes sentir perdido, perdida.
                   </h1>
                 </div>
               </Col>
@@ -169,8 +168,8 @@ function App() {
             >
               <Col md={6}>
                 <div>
-                  <h1 style={{ marginBottom: "0px" }}>Abrumado, abrumada</h1>
-                  <h1 style={{ marginBottom: "0px" }}>O vacio por dentro</h1>
+                  <h1 style={{ marginBottom: "0px" }}>Abrumada, abrumado</h1>
+                  <h1 style={{ marginBottom: "0px" }}>O vacío por dentro</h1>
                 </div>
               </Col>
             </Row>
@@ -188,7 +187,7 @@ function App() {
                 <div>
                   <h1 style={{ marginBottom: "0px" }}>
                     A la deriva por la vida, <br /> <br />
-                    sin ayuda ni guia.
+                    sin ayuda ni guía.
                   </h1>
                 </div>
               </Col>
@@ -231,18 +230,18 @@ function App() {
                     <br /> la ayuda que necesitas.
                   </h1>
                   <h2 style={{ marginBottom: "30px", marginTop: "-20px" }}>
-                    <br /> Para recuperar tu vida de vuelta.
+                    <br /> Para recuperar tu vida.
                     <br />
                     <br />
                   </h2>
                   <Button
                     variant="outline-light"
                     size="lg"
-                    href="http://www.sosunamigoanonimo.com.ar/"
+                    href="https://www.asistenciaalsuicida.org.ar/"
                     target="_blank"
                   >
-                    Conseguí ayuda ahora
-                  </Button>{" "}
+                    Conseguí ayuda ahora.
+                  </Button>
                 </div>
               </Col>
             </Row>

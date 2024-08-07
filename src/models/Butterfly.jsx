@@ -20,7 +20,6 @@ export function Butterfly(props) {
   useEffect(() => {
     // acelerar o desacelerar
     actions.Object_0.timeScale = 0.5;
-    console.log(actions);
     // animacion de las mariposas
     actions.Object_0.play();
   });
